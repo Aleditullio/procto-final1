@@ -1,0 +1,17 @@
+.cuadro_registro{
+	display: flex;
+	
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	border: 3px solid rgb(107, 92, 92);
+	margin: 15px;
+	margin-left: 40px;
+}
+
+.registro_contenedor{
+	
+	
+	@include color;
+	
+}

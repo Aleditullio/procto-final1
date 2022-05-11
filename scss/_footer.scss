@@ -1,0 +1,67 @@
+.contenedor .footer{
+	text-align: center;
+	background-color: rgb(243, 234, 234);
+	font-size: 10px; 
+	grid-area: footer;
+	
+	
+	
+	
+}
+
+.logos{
+	display:inline-flex;
+	padding: 10px;
+	animation-name: decoloracion;
+	animation-direction: alternate;
+	animation-duration: 5s;
+	animation-iteration-count:inherit;
+	
+}
+
+.bi-facebook{
+	@include logo-face;
+}
+
+.bi-facebook:hover{
+	@include hover;
+}
+
+.bi-whatsapp{
+	@include logo-wha;
+}
+
+.bi-whatsapp:hover{
+	@include hover;
+	
+}
+
+@keyframes decoloracion{
+
+	from{
+		margin-right: 100%;
+
+		
+	}
+	0%{
+		color: #36f35f;
+	} 
+
+	50%{
+		color: rgb(48, 33, 185);
+	}
+
+	to{
+		margin-left: 0%;
+		color: #1ab6b6;
+	}
+}
+
+.footer_pestañas{
+	background-color: #fdf5f5;
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+	padding: 25px;
+	text-align: right;
+	box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+}
